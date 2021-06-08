@@ -1,0 +1,16 @@
+.content {
+  font-size: 3.75rem;
+  line-height: 1.2;
+  margin: 40px auto;
+  width: 90%;
+  max-width: 1000px;
+  padding: 20px;
+  color: var(--light-orange);
+  background: rgba(0, 0, 0, 0.4);
+}
+.content p {
+  padding: 20px 0;
+}
+.content strong {
+  font-size: 4rem;
+}

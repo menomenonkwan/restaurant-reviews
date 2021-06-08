@@ -1,29 +1,15 @@
 import React from 'react'
-import { Link } from 'gatsby'
-import {
-  container,
-  heading,
-  navLinks,
-  navLinkItem,
-  navLinkText
-} from './layout.module.css'
+import '../styles/global.css'
+import NavBar from './NavBar'
+import Footer from './Footer'
 
 export default function Layout({ pageTitle, children }) {
   return (
-    <main className={container}>
+    <main>
       <title>{pageTitle}</title>
-      <nav>
-        <ul className={navLinks}>
-          <li className={navLinkItem}>
-            <Link to="/" className={navLinkText}>Home</Link>
-          </li>
-          <li className={navLinkItem}>
-            <Link to="/about" className={navLinkText}>About</Link>
-          </li>
-        </ul>
-      </nav>
-      <h1 className={heading}>{pageTitle}</h1>
+      <NavBar />
       {children}
+      <Footer />
     </main>
   )
 }
