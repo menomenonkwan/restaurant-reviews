@@ -13,6 +13,7 @@ const useStyles = makeStyles({
     maxWidth: 345,
     fontSize: '50px',
     background: 'radial-gradient(farthest-corner at 40px 40px, var(--orange), var(--light-orange))',
+    boxShadow: '0px 2px 6px rgba(0,0,0,0.7)',
   },
   btn: {
     fontSize: '2rem',

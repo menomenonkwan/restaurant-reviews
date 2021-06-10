@@ -9,7 +9,7 @@ export default function Hero() {
       <StaticImage
         style={{
           gridArea: "1/1",
-          maxHeight: 500,
+          maxHeight: 400,
         }}
         layout="fullWidth"
         aspectRatio={3 / 1}

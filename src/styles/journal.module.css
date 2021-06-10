@@ -1,0 +1,28 @@
+.journal {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  line-height: 1.2;
+  margin: 40px auto;
+  width: 90%;
+  max-width: 1000px;
+  padding: 40px;
+  color: var(--light-orange);
+  background: rgba(0, 0, 0, 0.4);
+}
+.journal div {
+  margin: 4rem;
+}
+.journal > div {
+  border-bottom: 1px solid var(--light-blue);
+}
+.journal h1 {
+  font-size: 5rem;
+}
+.journal h3 {
+  font-size: 3.5rem;
+}
+.description {
+  font-size: 3rem;
+}
